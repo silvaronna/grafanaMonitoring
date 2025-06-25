@@ -2,7 +2,7 @@ global:
   scrape_interval: 15s
 
 scrape_configs:
-  # Job 1: Memonitor Prometheus itu sendiri (best practice)
+  # Job 1: Monitor Prometheus it self (best practice)
   - job_name: 'prometheus'
     static_configs:
       - targets: ['localhost:9090']
@@ -10,23 +10,10 @@ scrape_configs:
   # Job 2: Monitor OS Target Host Ubuntu
   - job_name: 'target_server_1' # Beri nama yang deskriptif
     static_configs:
-      - targets: ['10.78.108.41:9100']
+      - targets: ['xx.xxx.xx.xx:9100'] # Replace dengan target host ip address
 
   # Job 3: Monitor FTM Esxi Host Server
   - job_name: 'telegraf-vsphere'
     scrape_interval: 60s
     static_configs:
       - targets: ['telegraf:9273']
-
-
-
-#  - job_name: 'grafana-agent-vsphere'
-#    scrape_interval: 60s
-#    static_configs:
-#      - targets: ['grafana-agent:12345']
-
-
-#  - job_name: 'vsphere-esxi'
-#    scrape_interval: 60s
-#    static_configs:
-#      - targets: ['vsphere-exporter:9272']
