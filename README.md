@@ -35,6 +35,7 @@ Before we dive in, make sure you've got the essentials:
     * [ ] `git` installed to clone this masterpiece.
     * [ ] `docker` is up and running.
     * [ ] `docker compose` is ready to roll.
+    * [ ] docker images has already stored on each machines (detail is below)
 * **For VMware Monitoring:**
     * [ ] Admin access to your VMware ESXi host to create a new, limited user.
 
