@@ -3,6 +3,7 @@
 Yo! Welcome to the command center. This repo packs everything you need to deploy a rock-solid monitoring pipeline using the legendary trio: **Prometheus, Grafana, and Telegraf**, all neatly containerized with Docker.
 
 The mission? To get sweet, sweet metrics from your servers (Linux OS-level stuff) and your VMware ESXi infrastructure, and then beam 'em up into some slick Grafana dashboards. No more flying blind.
+![image](https://github.com/user-attachments/assets/6dcb1dc8-74af-44d8-9717-e533e0eb2ced)
 
 ---
 
